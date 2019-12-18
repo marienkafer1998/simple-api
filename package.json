@@ -2,9 +2,10 @@
   "name": "lab4",
   "version": "1.0.0",
   "description": "Weather application with NodeJS",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node",
+    "dev": "nodemon server.js"
   },
   "author": "Maria Malkova",
   "license": "ISC",
@@ -17,3 +18,5 @@
     "nodemon": "^2.0.1"
   }
 }
+
+
